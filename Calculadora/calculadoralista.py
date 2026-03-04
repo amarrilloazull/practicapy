@@ -26,7 +26,7 @@ def mostrar_menu():
 def calculadora():
     while True:
         mostrar_menu()
-        opcion = int(input("Elige una opción: "))  # ← Agregué ": " para que se vea mejor
+        opcion = int(input("Elige una opción: ")) 
         
         if opcion == 5:
             print("Has salido de la calculadora. ¡Hasta luego!")
@@ -42,7 +42,7 @@ def calculadora():
             if opcion == 1:
                 resultado = suma(numeros[0], numeros[1])
             elif opcion == 2:
-                resultado = resta(numeros[0], numeros[1])  # ✅ Corregido
+                resultado = resta(numeros[0], numeros[1])  
             elif opcion == 3:
                 resultado = multiplicacion(numeros[0], numeros[1])
             elif opcion == 4:
